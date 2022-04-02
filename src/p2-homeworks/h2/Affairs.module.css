@@ -1,3 +1,23 @@
-.someClass {
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    border-top: darkgrey solid 1px;
+}
 
+.affairsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.filterButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 60px;
+    height: 30px;
 }

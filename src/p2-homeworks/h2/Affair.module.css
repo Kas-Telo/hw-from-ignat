@@ -1,0 +1,21 @@
+.affair {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    /*flex-grow: 1em;*/
+}
+
+.name {
+    width: 33.666%;
+    text-align: left;
+}
+
+.priority {
+    width: 33.666%;
+    text-align: center;
+}
+
+.deleteButton {
+    width: 33.666%;
+    text-align: end;
+}
