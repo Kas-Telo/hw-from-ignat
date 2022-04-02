@@ -1,0 +1,16 @@
+.greetingContainer {
+    height: 50px;
+}
+.someClass {
+    outline: none;
+}
+
+.error {
+    outline: none;
+    border: 1px solid red;
+}
+
+.errorMessage {
+    color: red;
+}
+

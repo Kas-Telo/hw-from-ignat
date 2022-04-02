@@ -1,0 +1,24 @@
+.message {
+    display: grid;
+    grid-template-columns: 100px 1fr 10px;
+    grid-template-areas: "i m";
+    width: 400px;
+    background-color: greenyellow;
+}
+img{
+    grid-area: i;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.messageInner{
+    grid-area: m;
+    dysplay: grid;
+
+    /*grid-template-rows: 10px 1fr 10px;*/
+    background-color: darkgreen;
+
+}
+
+
